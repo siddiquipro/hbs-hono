@@ -31,7 +31,7 @@ class HBS {
   }
 
   private getFile(fileName: string) {
-    const hbsPath = join(env.rootPath, "hbs", fileName + ".hbs");
+    const hbsPath = join(env.rootPath, "views", fileName + ".hbs");
     const raw = fs.readFileSync(hbsPath, "utf-8");
     return raw;
   }

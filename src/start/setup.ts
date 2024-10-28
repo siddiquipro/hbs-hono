@@ -6,7 +6,7 @@ export function setup() {
 }
 
 // partials from root directory
-const partials = ["./hbs/partials"];
+const partials = ["./views/partials"];
 
 function setupHandlebars() {
   //register all the partials
